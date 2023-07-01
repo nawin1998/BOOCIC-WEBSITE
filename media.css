@@ -1,0 +1,229 @@
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+        position: relative;
+        bottom: 18px;
+        left: 15%;
+    }
+    .hamburger{
+        position: relative;
+        height: 40px;
+        padding: 0 130px;
+        top: 20px;
+        right: 13rem;
+        background-color: black;
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line{
+        position: relative;
+        left: 7rem;
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 7px 0;   
+    }
+    .nav-bar{
+       height: 0;
+       position: absolute;
+       top: 80px;
+       left: 0;
+       right: 0;
+       width: 100vw;
+       background: rgb(218, 216, 216);
+       transition: 0.2s;
+       overflow: hidden;
+       z-index: 2;
+           }
+    .nav-bar.active{
+        height: 450px;
+    }       
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+       opacity: 0;
+    }  
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+    .nav-bar ul li a{
+        position: relative;
+        right: 20px;
+        line-height: 2;
+        color: red;
+        border-bottom: 2px solid white;
+    }
+    /* home */
+    .slides{
+        background-size: cover;
+        margin-top: 80px;
+        min-height: 25rem;
+
+    }
+    .caption{
+        height: 200px;
+        width: 70%;
+        top: 140px;
+        left: 70px;
+        
+    }
+    .caption h1{
+        font-size: 30px;
+    }
+    .caption p{
+        display: none;
+    }
+    .rosd{
+        top: 80px;
+    }
+
+    .iconic1{
+        position: absolute;
+        top: 28.5em;
+        left: 45%;
+    }
+    /* about */
+    
+    .abou h1{
+        position: relative;
+        left: 1%;
+        width: 100%;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .abou .line1{
+        position: relative;
+        width: 60%;
+        left: 85px;
+    }
+    /* screen */
+    .screencontainer .containers{
+        position: relative;
+        left: 8px;
+        width: 1000px;
+        overflow: hidden;
+    }
+    .slider{
+        display: flex;
+        transition: transform 0.8s ease;
+    }
+    .slider img{
+        max-width: 100%;  
+    }
+    .container #prev i{
+       position: relative;
+       font-size: 20px;
+       bottom: 180px; 
+       left: 2%;
+       cursor: pointer;
+       padding: 12px;
+       background-color: #070707;
+       color: #fff;
+        
+    }
+    .container #next i{
+        position: relative;
+        font-size: 20px;
+        left: 78%;
+        bottom: 180px;
+        cursor: pointer;
+        padding: 12px;
+        background-color: #070707;
+        color: #fff;
+    }
+    #next.disable{
+        pointer-events: none;
+        opacity: 0.5;
+    }
+    #prev.disable{
+        pointer-events: none;
+        opacity: 0.5;
+    }
+    .rosd1{
+        position: relative;
+        bottom: 10px;
+        left: 8%;
+        height: 60px;
+        width: 160px;
+        background-color: #070707;
+        color: #ffff;
+        border: none;
+        transition: all 1s ease;
+    }
+    .rosd1:hover{
+        color: #ffff;
+        background-color: #fc4311;
+        border-radius: 50px;
+    }
+    /* service */
+    .card{
+        width: 22rem;
+        margin-top: 10px;
+        margin-left: 12px;
+        
+    }  
+    .card img{
+        width: 22rem;
+    }
+    .carinn{
+        height: 209px;
+        width: 24.6rem;
+    }  
+    .carinn1{
+        position: relative;
+        left: 25%;
+        top: 38%;
+    }
+
+    /* blog */
+    .cardin{
+        bottom: 199px;
+        height: 35px;
+        width: 140px;
+    }
+    .cardin h3{
+        font-size: 14px;
+    }
+    .cardin1{
+        width: 20rem;
+        
+    }
+    .cardin1 h4{
+        font-size: 12px;
+        width: 15rem;
+        margin-top: 10px;
+    }
+    .cardin1 h5{
+        position: relative;
+        left: 75px;
+        width: 16rem;
+        top: 10px;
+        font-size: 12px;
+    }
+    /* form */
+    .formed{
+        left: 12px;
+    }
+    .forming{
+        width: 20rem;
+    }
+    /* foot */
+    .footcontainer{
+        background-color: #fc4311;
+        height: 48rem;
+    
+    }
+}
