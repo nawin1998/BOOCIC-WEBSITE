@@ -172,7 +172,7 @@
     .card{
         width: 22rem;
         margin-top: 10px;
-        margin-left: 12px;
+        margin-left: 7px;
         
     }  
     .card img{
@@ -190,7 +190,7 @@
 
     /* blog */
     .cardin{
-        bottom: 199px;
+        bottom: 194px;
         height: 35px;
         width: 140px;
     }
