@@ -204,14 +204,15 @@
         </section>
         <section class="blogcontainer" id="Blog">
             <div class="container">
-                <div class="row p-5">
+                <div class="row">
                     <div class="col-md-12 blo">
                         <h1 class="mt-5">Our Blog</h1>
                         <div class="line2 mt-3"></div>
                         <p class="mt-5">Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="container-fluid">
+                <div class="row ms-4 tess">
                     <div class="col-md-6">
                         <div class="carder">
                             <img src="images/blog-image0.jpg" alt="" class="img-fluid">
@@ -245,7 +246,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row ms-4 tesses">
                     <div class="col-md-6">
                         <div class="carder">
                             <img src="images/blog-image.jpg" alt="" class="img-fluid">
@@ -278,6 +279,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <section class="contactcontainer" id="Contact">
@@ -420,11 +422,12 @@
                 }else{
                     next.classList.remove("disable")
                 }
-               
+                
             });
 
             prev.classList.add("disable");
 
+            
          // form
          const form = document.getElementById("form");
          var a=document.getElementById("first");

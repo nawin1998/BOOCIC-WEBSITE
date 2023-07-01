@@ -187,31 +187,38 @@
         left: 25%;
         top: 38%;
     }
-
     /* blog */
     .cardin{
-        bottom: 194px;
-        height: 35px;
-        width: 140px;
+        bottom: 143px;
+        height: 25px;
+        width: 101px;
     }
     .cardin h3{
-        font-size: 14px;
+        font-size: 10px;
+        padding-top: 7px;
+        padding-left: 11px;
     }
     .cardin1{
         width: 20rem;
         
     }
     .cardin1 h4{
-        font-size: 12px;
-        width: 15rem;
-        margin-top: 10px;
+        font-size: 10px;
+        width: 13rem;
+        margin-top: 19px;
     }
     .cardin1 h5{
         position: relative;
-        left: 75px;
+        left: 5px;
         width: 16rem;
-        top: 10px;
-        font-size: 12px;
+        top: 19px;
+        font-size: 10px;
+    }
+    .blogcontainer .tess{
+        padding-right: 35px;
+    }
+    .blogcontainer .tesses{
+        padding-right: 35px;
     }
     /* form */
     .formed{
@@ -225,5 +232,8 @@
         background-color: #fc4311;
         height: 48rem;
     
+    }
+    .footed6{
+        height: 50px;
     }
 }
